@@ -1,7 +1,5 @@
 # LogisticalMobileRobot
 Obstacle detection in a mobile robot
-
-Use the same code for all ESP32s but update the CAN ID ranges for each node.
-Ensure that each ESP has a unique ID range to avoid message conflicts.
-The PC can process messages by their CAN IDs, identifying which ESP or sensor sent the data.
-
+Problem statement - develop a rudimentary obstacle detection system using VL53L5CX sensors
+Each holder has 5 sensors controlled by an ESP 32 module
+4 holders conncted on 4 corners of the robot communicate via CAN bus network
